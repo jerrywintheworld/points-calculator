@@ -157,22 +157,7 @@ const PrivacyPage: React.FC = () => {
         </div>
       </section>
 
-      {/* Contact Information */}
-      <section className="py-16 text-center">
-        <h2 className="text-3xl font-bold text-gray-900 mb-6">
-          Questions About Privacy?
-        </h2>
-        <p className="text-xl text-gray-600 mb-8 max-w-2xl mx-auto">
-          If you have any questions about this Privacy Policy or our data practices, 
-          please don't hesitate to contact us.
-        </p>
-        <a
-          href="/contact"
-          className="inline-block bg-blue-600 text-white px-8 py-4 rounded-2xl text-lg font-semibold hover:bg-blue-700 transition-colors duration-200"
-        >
-          Contact Us
-        </a>
-      </section>
+
 
       <BackToTop targetId="privacy-hero" />
     </div>
