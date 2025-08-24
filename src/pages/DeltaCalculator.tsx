@@ -50,10 +50,9 @@ const DeltaCalculator = () => {
   return (
     <div className="max-w-4xl mx-auto">
       <SEO 
-        title="Delta Airlines Miles Calculator - Calculate Delta Miles Value | Points Calculator"
-        description="Free Delta Airlines miles calculator. Convert Delta miles to USD, EUR, GBP, CAD, AUD. Calculate your Delta SkyMiles value instantly."
-        keywords="Delta Airlines miles calculator, Delta SkyMiles calculator, Delta miles value, Delta miles to money, SkyMiles redemption"
-        canonical="https://pointscalculator.com/airlines/delta"
+        title="Delta Airlines Miles Calculator - Convert Miles to Money"
+        description="Free Delta Airlines miles calculator. Convert Delta miles to USD, EUR, GBP, CAD, AUD. Calculate Delta SkyMiles value instantly."
+        canonical="https://www.points-calculator.com/airlines/delta"
       />
       <div className="text-center mb-12">
         <div className="mb-4">

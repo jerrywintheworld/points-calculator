@@ -54,10 +54,9 @@ const AirlinesPage: React.FC = () => {
   return (
     <div className="max-w-6xl mx-auto">
       <SEO 
-        title="Airline Miles Calculator - Delta, American & More | Points Calculator"
-        description="Calculate airline miles value for Delta, American Airlines, United, British Airways, and Lufthansa. Free online airline miles calculator."
-        keywords="airline miles calculator, Delta miles, American Airlines miles, United miles, British Airways miles, Lufthansa miles"
-        canonical="https://pointscalculator.com/airlines"
+        title="Airline Miles Calculator - Delta, American & More"
+        description="Calculate airline miles value for Delta, American Airlines, United, British Airways, and Lufthansa. Free online calculator."
+        canonical="https://www.points-calculator.com/airlines"
       />
       <div className="text-center mb-12">
         <h1 className="text-4xl font-bold text-gray-900 mb-4">

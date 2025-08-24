@@ -50,10 +50,9 @@ const ChoiceCalculator = () => {
   return (
     <div className="max-w-4xl mx-auto">
       <SEO 
-        title="Choice Hotels Points Calculator - Calculate Choice Points Value | Points Calculator"
-        description="Free Choice Hotels points calculator. Convert Choice points to USD, EUR, GBP, CAD, AUD. Calculate your Choice Hotels points value instantly."
-        keywords="Choice Hotels points calculator, Choice points value, Choice points to money, Choice rewards, Choice redemption"
-        canonical="https://pointscalculator.com/hotels/choice"
+        title="Choice Hotels Points Calculator - Convert Points"
+        description="Free Choice Hotels points calculator. Convert Choice points to USD, EUR, GBP, CAD, AUD. Calculate Choice points value instantly."
+        canonical="https://www.points-calculator.com/hotels/choice"
       />
       <div className="text-center mb-12">
         <div className="mb-4">

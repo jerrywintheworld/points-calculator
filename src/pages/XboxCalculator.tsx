@@ -50,10 +50,9 @@ const XboxCalculator = () => {
   return (
     <div className="max-w-4xl mx-auto">
       <SEO 
-        title="Xbox Rewards Calculator - Calculate Xbox Points Value | Points Calculator"
-        description="Free Xbox Rewards points calculator. Convert Xbox points to USD, EUR, GBP, CAD, AUD. Calculate your Xbox points value instantly."
-        keywords="Xbox Rewards calculator, Xbox points calculator, Xbox points value, Xbox points to money, Microsoft Rewards"
-        canonical="https://pointscalculator.com/gaming/xbox"
+        title="Xbox Rewards Calculator - Convert Xbox Points"
+        description="Free Xbox Rewards points calculator. Convert Xbox points to USD, EUR, GBP, CAD, AUD. Calculate Xbox points value instantly."
+        canonical="https://www.points-calculator.com/gaming/xbox"
       />
       <div className="text-center mb-12">
         <div className="mb-4">

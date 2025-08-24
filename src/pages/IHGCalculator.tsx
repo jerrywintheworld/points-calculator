@@ -50,10 +50,9 @@ const IHGCalculator = () => {
   return (
     <div className="max-w-4xl mx-auto">
       <SEO 
-        title="IHG Rewards Points Calculator - Calculate IHG Points Value | Points Calculator"
-        description="Free IHG Rewards points calculator. Convert IHG points to USD, EUR, GBP, CAD, AUD. Calculate your IHG points value instantly."
-        keywords="IHG Rewards points calculator, IHG points value, IHG points to money, IHG rewards, IHG redemption"
-        canonical="https://pointscalculator.com/hotels/ihg"
+        title="IHG Rewards Points Calculator - Convert Points"
+        description="Free IHG Rewards points calculator. Convert IHG points to USD, EUR, GBP, CAD, AUD. Calculate IHG points value instantly."
+        canonical="https://www.points-calculator.com/hotels/ihg"
       />
       <div className="text-center mb-12">
         <div className="mb-4">

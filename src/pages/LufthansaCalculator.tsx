@@ -50,10 +50,9 @@ const LufthansaCalculator = () => {
   return (
     <div className="max-w-4xl mx-auto">
       <SEO 
-        title="Lufthansa Miles Calculator - Calculate Lufthansa Miles Value | Points Calculator"
-        description="Free Lufthansa miles calculator. Convert Lufthansa miles to USD, EUR, GBP, CAD, AUD. Calculate your Lufthansa miles value instantly."
-        keywords="Lufthansa miles calculator, Lufthansa miles value, Lufthansa miles to money, Miles & More redemption"
-        canonical="https://pointscalculator.com/airlines/lufthansa"
+        title="Lufthansa Miles Calculator - Convert Miles"
+        description="Free Lufthansa miles calculator. Convert Lufthansa miles to USD, EUR, GBP, CAD, AUD. Calculate Lufthansa miles value instantly."
+        canonical="https://www.points-calculator.com/airlines/lufthansa"
       />
       <div className="text-center mb-12">
         <div className="mb-4">

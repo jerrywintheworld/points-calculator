@@ -50,10 +50,9 @@ const HyattCalculator = () => {
   return (
     <div className="max-w-4xl mx-auto">
       <SEO 
-        title="World of Hyatt Points Calculator - Calculate Hyatt Points Value | Points Calculator"
-        description="Free World of Hyatt points calculator. Convert Hyatt points to USD, EUR, GBP, CAD, AUD. Calculate your Hyatt points value instantly."
-        keywords="World of Hyatt points calculator, Hyatt points value, Hyatt points to money, Hyatt rewards, Hyatt redemption"
-        canonical="https://pointscalculator.com/hotels/hyatt"
+        title="World of Hyatt Points Calculator - Convert Points"
+        description="Free World of Hyatt points calculator. Convert Hyatt points to USD, EUR, GBP, CAD, AUD. Calculate Hyatt points value instantly."
+        canonical="https://www.points-calculator.com/hotels/hyatt"
       />
       <div className="text-center mb-12">
         <div className="mb-4">

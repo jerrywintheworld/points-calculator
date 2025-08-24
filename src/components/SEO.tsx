@@ -7,11 +7,10 @@ import { useEffect } from 'react'
 interface SEOProps {
   title: string
   description: string
-  keywords?: string
   canonical?: string
 }
 
-const SEO = ({ title, description, keywords, canonical }: SEOProps) => {
+const SEO = ({ title, description, canonical }: SEOProps) => {
   useEffect(() => {
     // Update document title
     document.title = title
@@ -24,17 +23,6 @@ const SEO = ({ title, description, keywords, canonical }: SEOProps) => {
       document.head.appendChild(metaDescription)
     }
     metaDescription.setAttribute('content', description)
-
-    // Update meta keywords
-    if (keywords) {
-      let metaKeywords = document.querySelector('meta[name="keywords"]')
-      if (!metaKeywords) {
-        metaKeywords = document.createElement('meta')
-        metaKeywords.setAttribute('name', 'keywords')
-        document.head.appendChild(metaKeywords)
-      }
-      metaKeywords.setAttribute('content', keywords)
-    }
 
     // Update canonical URL
     if (canonical) {
@@ -52,7 +40,7 @@ const SEO = ({ title, description, keywords, canonical }: SEOProps) => {
       // Reset to default title when component unmounts
       document.title = 'Points Calculator - The Most Comprehensive Points Calculator Platform'
     }
-  }, [title, description, keywords, canonical])
+  }, [title, description, canonical])
 
   return null
 }

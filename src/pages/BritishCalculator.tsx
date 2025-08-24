@@ -50,10 +50,9 @@ const BritishCalculator = () => {
   return (
     <div className="max-w-4xl mx-auto">
       <SEO 
-        title="British Airways Miles Calculator - Calculate BA Miles Value | Points Calculator"
-        description="Free British Airways miles calculator. Convert BA miles to USD, EUR, GBP, CAD, AUD. Calculate your British Airways miles value instantly."
-        keywords="British Airways miles calculator, BA miles calculator, British Airways miles value, BA miles to money, Avios redemption"
-        canonical="https://pointscalculator.com/airlines/british"
+        title="British Airways Miles Calculator - Convert BA Miles"
+        description="Free British Airways miles calculator. Convert BA miles to USD, EUR, GBP, CAD, AUD. Calculate BA miles value instantly."
+        canonical="https://www.points-calculator.com/airlines/british"
       />
       <div className="text-center mb-12">
         <div className="mb-4">

@@ -50,10 +50,9 @@ const MarriottCalculator = () => {
   return (
     <div className="max-w-4xl mx-auto">
       <SEO 
-        title="Marriott Bonvoy Points Calculator - Calculate Marriott Points Value | Points Calculator"
-        description="Free Marriott Bonvoy points calculator. Convert Marriott points to USD, EUR, GBP, CAD, AUD. Calculate your Marriott points value instantly."
-        keywords="Marriott Bonvoy points calculator, Marriott points value, Marriott points to money, Marriott rewards, Bonvoy redemption"
-        canonical="https://pointscalculator.com/hotels/marriott"
+        title="Marriott Bonvoy Points Calculator - Convert Points"
+        description="Free Marriott Bonvoy points calculator. Convert Marriott points to USD, EUR, GBP, CAD, AUD. Calculate Marriott points value instantly."
+        canonical="https://www.points-calculator.com/hotels/marriott"
       />
       <div className="text-center mb-12">
         <div className="mb-4">

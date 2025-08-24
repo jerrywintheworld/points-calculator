@@ -50,10 +50,9 @@ const AmericanCalculator = () => {
   return (
     <div className="max-w-4xl mx-auto">
       <SEO 
-        title="American Airlines Miles Calculator - Calculate AA Miles Value | Points Calculator"
-        description="Free American Airlines miles calculator. Convert AA miles to USD, EUR, GBP, CAD, AUD. Calculate your American Airlines miles value instantly."
-        keywords="American Airlines miles calculator, AA miles calculator, American Airlines miles value, AA miles to money, AAdvantage redemption"
-        canonical="https://pointscalculator.com/airlines/american"
+        title="American Airlines Miles Calculator - Convert AA Miles"
+        description="Free American Airlines miles calculator. Convert AA miles to USD, EUR, GBP, CAD, AUD. Calculate AA miles value instantly."
+        canonical="https://www.points-calculator.com/airlines/american"
       />
       <div className="text-center mb-12">
         <div className="mb-4">

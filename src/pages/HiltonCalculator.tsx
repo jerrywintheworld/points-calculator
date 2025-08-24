@@ -50,10 +50,9 @@ const HiltonCalculator = () => {
   return (
     <div className="max-w-4xl mx-auto">
       <SEO 
-        title="Hilton Honors Points Calculator - Calculate Hilton Points Value | Points Calculator"
-        description="Free Hilton Honors points calculator. Convert Hilton points to USD, EUR, GBP, CAD, AUD. Calculate your Hilton points value instantly."
-        keywords="Hilton Honors points calculator, Hilton points value, Hilton points to money, Hilton rewards, Honors redemption"
-        canonical="https://pointscalculator.com/hotels/hilton"
+        title="Hilton Honors Points Calculator - Convert Points"
+        description="Free Hilton Honors points calculator. Convert Hilton points to USD, EUR, GBP, CAD, AUD. Calculate Hilton points value instantly."
+        canonical="https://www.points-calculator.com/hotels/hilton"
       />
       <div className="text-center mb-12">
         <div className="mb-4">

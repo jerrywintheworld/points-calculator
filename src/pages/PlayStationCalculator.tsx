@@ -50,10 +50,9 @@ const PlayStationCalculator = () => {
   return (
     <div className="max-w-4xl mx-auto">
       <SEO 
-        title="PlayStation Stars Calculator - Calculate PSN Points Value | Points Calculator"
-        description="Free PlayStation Stars points calculator. Convert PSN points to USD, EUR, GBP, CAD, AUD. Calculate your PlayStation points value instantly."
-        keywords="PlayStation Stars calculator, PSN points calculator, PlayStation points value, PSN points to money, PlayStation rewards"
-        canonical="https://pointscalculator.com/gaming/playstation"
+        title="PlayStation Stars Calculator - Convert PSN Points"
+        description="Free PlayStation Stars points calculator. Convert PSN points to USD, EUR, GBP, CAD, AUD. Calculate PlayStation points value instantly."
+        canonical="https://www.points-calculator.com/gaming/playstation"
       />
       <div className="text-center mb-12">
         <div className="mb-4">

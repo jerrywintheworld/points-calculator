@@ -1,6 +1,7 @@
 import React from 'react'
 import { Routes, Route } from 'react-router-dom'
 import Layout from './components/Layout'
+import GoogleAnalytics from './components/GoogleAnalytics'
 import HomePage from './pages/HomePage'
 import SteamCalculator from './pages/SteamCalculator'
 import PlayStationCalculator from './pages/PlayStationCalculator'
@@ -23,29 +24,32 @@ import HotelsPage from './pages/HotelsPage'
 
 function App() {
   return (
-    <Layout>
-      <Routes>
-        <Route path="/" element={<HomePage />} />
-        <Route path="/gaming" element={<GamingPage />} />
-        <Route path="/gaming/steam" element={<SteamCalculator />} />
-        <Route path="/gaming/playstation" element={<PlayStationCalculator />} />
-        <Route path="/gaming/xbox" element={<XboxCalculator />} />
-        <Route path="/gaming/nintendo" element={<NintendoCalculator />} />
-        <Route path="/gaming/epic" element={<EpicCalculator />} />
-        <Route path="/airlines" element={<AirlinesPage />} />
-        <Route path="/airlines/delta" element={<DeltaCalculator />} />
-        <Route path="/airlines/american" element={<AmericanCalculator />} />
-        <Route path="/airlines/united" element={<UnitedCalculator />} />
-        <Route path="/airlines/british" element={<BritishCalculator />} />
-        <Route path="/airlines/lufthansa" element={<LufthansaCalculator />} />
-        <Route path="/hotels" element={<HotelsPage />} />
-        <Route path="/hotels/marriott" element={<MarriottCalculator />} />
-        <Route path="/hotels/hilton" element={<HiltonCalculator />} />
-        <Route path="/hotels/ihg" element={<IHGCalculator />} />
-        <Route path="/hotels/hyatt" element={<HyattCalculator />} />
-        <Route path="/hotels/choice" element={<ChoiceCalculator />} />
-      </Routes>
-    </Layout>
+    <>
+      <GoogleAnalytics />
+      <Layout>
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+          <Route path="/gaming" element={<GamingPage />} />
+          <Route path="/gaming/steam" element={<SteamCalculator />} />
+          <Route path="/gaming/playstation" element={<PlayStationCalculator />} />
+          <Route path="/gaming/xbox" element={<XboxCalculator />} />
+          <Route path="/gaming/nintendo" element={<NintendoCalculator />} />
+          <Route path="/gaming/epic" element={<EpicCalculator />} />
+          <Route path="/airlines" element={<AirlinesPage />} />
+          <Route path="/airlines/delta" element={<DeltaCalculator />} />
+          <Route path="/airlines/american" element={<AmericanCalculator />} />
+          <Route path="/airlines/united" element={<UnitedCalculator />} />
+          <Route path="/airlines/british" element={<BritishCalculator />} />
+          <Route path="/airlines/lufthansa" element={<LufthansaCalculator />} />
+          <Route path="/hotels" element={<HotelsPage />} />
+          <Route path="/hotels/marriott" element={<MarriottCalculator />} />
+          <Route path="/hotels/hilton" element={<HiltonCalculator />} />
+          <Route path="/hotels/ihg" element={<IHGCalculator />} />
+          <Route path="/hotels/hyatt" element={<HyattCalculator />} />
+          <Route path="/hotels/choice" element={<ChoiceCalculator />} />
+        </Routes>
+      </Layout>
+    </>
   )
 }
 

@@ -38,6 +38,15 @@ const SteamCalculator: React.FC = () => {
   // Manual calculation function (for button click)
   const handleCalculate = () => {
     calculateValue()
+    
+    // Track calculator usage event
+    if (window.gtag && points && parseFloat(points) > 0) {
+      window.gtag('event', 'calculator_used', {
+        event_category: 'engagement',
+        event_label: `steam_${currency}`,
+        value: parseFloat(points)
+      })
+    }
   }
 
   const formatCurrency = (value: number, curr: string) => {
@@ -50,10 +59,9 @@ const SteamCalculator: React.FC = () => {
   return (
     <div className="max-w-4xl mx-auto">
       <SEO 
-        title="Steam Points Calculator - Calculate Steam Points Value | Points Calculator"
-        description="Free Steam points calculator. Convert Steam points to USD, EUR, GBP, CAD, AUD. Calculate your Steam wallet value instantly."
-        keywords="Steam points calculator, Steam points value, Steam wallet calculator, Steam points to money, Steam points conversion"
-        canonical="https://pointscalculator.com/gaming/steam"
+        title="Steam Points Calculator - Convert Points to Money"
+        description="Free Steam points calculator. Convert Steam points to USD, EUR, GBP, CAD, AUD. Calculate Steam wallet value instantly."
+        canonical="https://www.points-calculator.com/gaming/steam"
       />
       <div className="text-center mb-12">
         <div className="mb-4">

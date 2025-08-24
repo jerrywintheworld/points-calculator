@@ -50,10 +50,9 @@ const NintendoCalculator = () => {
   return (
     <div className="max-w-4xl mx-auto">
       <SEO 
-        title="Nintendo Points Calculator - Calculate Nintendo Points Value | Points Calculator"
-        description="Free Nintendo Points calculator. Convert Nintendo points to USD, EUR, GBP, CAD, AUD. Calculate your Nintendo eShop points value instantly."
-        keywords="Nintendo Points calculator, Nintendo points value, Nintendo eShop calculator, Nintendo points to money, Nintendo rewards"
-        canonical="https://pointscalculator.com/gaming/nintendo"
+        title="Nintendo Points Calculator - Convert eShop Points"
+        description="Free Nintendo Points calculator. Convert Nintendo points to USD, EUR, GBP, CAD, AUD. Calculate Nintendo eShop points value instantly."
+        canonical="https://www.points-calculator.com/gaming/nintendo"
       />
       <div className="text-center mb-12">
         <div className="mb-4">

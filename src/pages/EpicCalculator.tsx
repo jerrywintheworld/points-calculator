@@ -50,10 +50,9 @@ const EpicCalculator = () => {
   return (
     <div className="max-w-4xl mx-auto">
       <SEO 
-        title="Epic Games Points Calculator - Calculate Epic Points Value | Points Calculator"
-        description="Free Epic Games points calculator. Convert Epic points to USD, EUR, GBP, CAD, AUD. Calculate your Epic Store points value instantly."
-        keywords="Epic Games points calculator, Epic points value, Epic Store calculator, Epic points to money, Epic rewards"
-        canonical="https://pointscalculator.com/gaming/epic"
+        title="Epic Games Points Calculator - Convert Store Points"
+        description="Free Epic Games points calculator. Convert Epic points to USD, EUR, GBP, CAD, AUD. Calculate Epic Store points value instantly."
+        canonical="https://www.points-calculator.com/gaming/epic"
       />
       <div className="text-center mb-12">
         <div className="mb-4">

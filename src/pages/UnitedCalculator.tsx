@@ -50,10 +50,9 @@ const UnitedCalculator = () => {
   return (
     <div className="max-w-4xl mx-auto">
       <SEO 
-        title="United Airlines Miles Calculator - Calculate United Miles Value | Points Calculator"
-        description="Free United Airlines miles calculator. Convert United miles to USD, EUR, GBP, CAD, AUD. Calculate your United Airlines miles value instantly."
-        keywords="United Airlines miles calculator, United miles calculator, United miles value, United miles to money, MileagePlus redemption"
-        canonical="https://pointscalculator.com/airlines/united"
+        title="United Airlines Miles Calculator - Convert Miles"
+        description="Free United Airlines miles calculator. Convert United miles to USD, EUR, GBP, CAD, AUD. Calculate United miles value instantly."
+        canonical="https://www.points-calculator.com/airlines/united"
       />
       <div className="text-center mb-12">
         <div className="mb-4">

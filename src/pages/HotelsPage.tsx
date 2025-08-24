@@ -54,10 +54,9 @@ const HotelsPage: React.FC = () => {
   return (
     <div className="max-w-6xl mx-auto">
       <SEO
-        title="Hotel Points Calculator - Marriott, Hilton & More | Points Calculator"
-        description="Calculate hotel points value for Marriott Bonvoy, Hilton Honors, IHG Rewards, World of Hyatt, and Choice Hotels. Free online hotel points calculator."
-        keywords="hotel points calculator, Marriott points, Hilton points, IHG points, Hyatt points, Choice Hotels points"
-        canonical="https://pointscalculator.com/hotels"
+        title="Hotel Points Calculator - Marriott, Hilton & More"
+        description="Calculate hotel points value for Marriott Bonvoy, Hilton Honors, IHG Rewards, World of Hyatt, and Choice Hotels. Free online calculator."
+        canonical="https://www.points-calculator.com/hotels"
       />
       <div className="text-center mb-12">
         <h1 className="text-4xl font-bold text-gray-900 mb-4">

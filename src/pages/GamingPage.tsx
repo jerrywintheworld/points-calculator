@@ -50,10 +50,9 @@ const GamingPage: React.FC = () => {
   return (
     <div className="max-w-6xl mx-auto">
       <SEO 
-        title="Gaming Points Calculator - Steam, PlayStation, Xbox & More | Points Calculator"
-        description="Calculate gaming points value for Steam, PlayStation Stars, Xbox Rewards, Nintendo Points, and Epic Games. Free online gaming points calculator."
-        keywords="gaming points calculator, Steam points, PlayStation Stars, Xbox Rewards, Nintendo Points, Epic Games, gaming rewards"
-        canonical="https://pointscalculator.com/gaming"
+        title="Gaming Points Calculator - Steam, PlayStation, Xbox & More"
+        description="Calculate gaming points value for Steam, PlayStation Stars, Xbox Rewards, Nintendo Points, and Epic Games. Free online calculator."
+        canonical="https://www.points-calculator.com/gaming"
       />
       <div className="text-center mb-12">
         <h1 className="text-4xl font-bold text-gray-900 mb-4">
