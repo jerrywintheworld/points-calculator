@@ -3,6 +3,10 @@ import { Routes, Route } from 'react-router-dom'
 import Layout from './components/Layout'
 import GoogleAnalytics from './components/GoogleAnalytics'
 import HomePage from './pages/HomePage'
+import LoginPage from './pages/LoginPage'
+import AuthCallback from './pages/AuthCallback'
+import ProfilePage from './pages/ProfilePage'
+import ResetPasswordPage from './pages/ResetPasswordPage'
 import SteamCalculator from './pages/SteamCalculator'
 import PlayStationCalculator from './pages/PlayStationCalculator'
 import XboxCalculator from './pages/XboxCalculator'
@@ -21,6 +25,11 @@ import IHGCalculator from './pages/IHGCalculator'
 import HyattCalculator from './pages/HyattCalculator'
 import ChoiceCalculator from './pages/ChoiceCalculator'
 import HotelsPage from './pages/HotelsPage'
+import AboutPage from './pages/AboutPage'
+import PhilosophyPage from './pages/PhilosophyPage'
+import HelpPage from './pages/HelpPage'
+import PrivacyPage from './pages/PrivacyPage'
+import TermsPage from './pages/TermsPage'
 
 function App() {
   return (
@@ -29,6 +38,10 @@ function App() {
       <Layout>
         <Routes>
           <Route path="/" element={<HomePage />} />
+          <Route path="/login" element={<LoginPage />} />
+          <Route path="/auth/callback" element={<AuthCallback />} />
+          <Route path="/profile" element={<ProfilePage />} />
+          <Route path="/reset-password" element={<ResetPasswordPage />} />
           <Route path="/gaming" element={<GamingPage />} />
           <Route path="/gaming/steam" element={<SteamCalculator />} />
           <Route path="/gaming/playstation" element={<PlayStationCalculator />} />
@@ -47,6 +60,11 @@ function App() {
           <Route path="/hotels/ihg" element={<IHGCalculator />} />
           <Route path="/hotels/hyatt" element={<HyattCalculator />} />
           <Route path="/hotels/choice" element={<ChoiceCalculator />} />
+          <Route path="/about" element={<AboutPage />} />
+          <Route path="/philosophy" element={<PhilosophyPage />} />
+          <Route path="/help" element={<HelpPage />} />
+          <Route path="/privacy" element={<PrivacyPage />} />
+          <Route path="/terms" element={<TermsPage />} />
         </Routes>
       </Layout>
     </>

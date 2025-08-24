@@ -133,4 +133,39 @@
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
+  <!-- About Us Page -->
+  <url>
+    <loc>https://www.points-calculator.com/about</loc>
+    <lastmod>2025-08-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <!-- Service Philosophy Page -->
+  <url>
+    <loc>https://www.points-calculator.com/philosophy</loc>
+    <lastmod>2025-08-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <!-- Help Center Page -->
+  <url>
+    <loc>https://www.points-calculator.com/help</loc>
+    <lastmod>2025-08-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <!-- Privacy Policy Page -->
+  <url>
+    <loc>https://www.points-calculator.com/privacy</loc>
+    <lastmod>2025-08-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.4</priority>
+  </url>
+  <!-- Terms of Service Page -->
+  <url>
+    <loc>https://www.points-calculator.com/terms</loc>
+    <lastmod>2025-08-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.4</priority>
+  </url>
 </urlset>

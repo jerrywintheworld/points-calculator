@@ -50,7 +50,7 @@ const HomePage: React.FC = () => {
   return (
     <div className="space-y-8">
       <SEO 
-        title="Points Calculator - Steam, Airline & Hotel Points Value"
+        title="Points Calculator | The Most Comprehensive Points Value Platform"
         description="Free online calculator for Steam points, airline miles, and hotel points. Multi-currency support. Calculate points value in seconds."
         canonical="https://www.points-calculator.com/"
       />

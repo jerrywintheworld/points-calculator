@@ -96,6 +96,10 @@ src/
 - **提交规范**: Conventional Commits
 - **Git工作流**: Git Flow
 - **代码审查**: Pull Request + Code Review
+- **语言规范**: 
+  - 讨论、文档、注释使用中文
+  - 代码、变量名、函数名使用英文
+  - 用户界面文本使用英文（面向国际用户）
 
 ## 📈 后续计划
 

@@ -125,6 +125,36 @@ const siteStructure = [
     priority: '0.7',
     changefreq: 'weekly',
     description: 'Choice Hotels Calculator'
+  },
+  {
+    path: '/about',
+    priority: '0.6',
+    changefreq: 'monthly',
+    description: 'About Us Page'
+  },
+  {
+    path: '/philosophy',
+    priority: '0.6',
+    changefreq: 'monthly',
+    description: 'Service Philosophy Page'
+  },
+  {
+    path: '/help',
+    priority: '0.7',
+    changefreq: 'monthly',
+    description: 'Help Center Page'
+  },
+  {
+    path: '/privacy',
+    priority: '0.4',
+    changefreq: 'monthly',
+    description: 'Privacy Policy Page'
+  },
+  {
+    path: '/terms',
+    priority: '0.4',
+    changefreq: 'monthly',
+    description: 'Terms of Service Page'
   }
 ]
 
