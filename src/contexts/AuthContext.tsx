@@ -75,7 +75,7 @@ export const AuthProvider: React.FC<AuthProviderProps> = ({ children }) => {
     const { error } = await supabase.auth.signInWithOAuth({
       provider: 'google',
       options: {
-        redirectTo: `${window.location.origin}/auth/callback`
+        redirectTo: import.meta.env.VITE_REDIRECT_URL || `${window.location.origin}/auth/callback`
       }
     })
     return { error }
@@ -85,7 +85,7 @@ export const AuthProvider: React.FC<AuthProviderProps> = ({ children }) => {
     const { error } = await supabase.auth.signInWithOAuth({
       provider: 'github',
       options: {
-        redirectTo: `${window.location.origin}/auth/callback`
+        redirectTo: import.meta.env.VITE_REDIRECT_URL || `${window.location.origin}/auth/callback`
       }
     })
     return { error }
@@ -93,7 +93,7 @@ export const AuthProvider: React.FC<AuthProviderProps> = ({ children }) => {
 
   const resetPassword = async (email: string) => {
     const { error } = await supabase.auth.resetPasswordForEmail(email, {
-      redirectTo: `${window.location.origin}/reset-password`
+      redirectTo: import.meta.env.VITE_REDIRECT_URL || `${window.location.origin}/reset-password`
     })
     return { error }
   }
