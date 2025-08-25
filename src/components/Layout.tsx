@@ -130,9 +130,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
               <Link to="/philosophy" className="text-gray-600 hover:text-blue-600 transition-colors">
                 Service Philosophy
               </Link>
-              <Link to="/help" className="text-gray-600 hover:text-blue-600 transition-colors">
-                Help Center
-              </Link>
+
               <Link to="/privacy" className="text-gray-600 hover:text-blue-600 transition-colors">
                 Privacy Policy
               </Link>

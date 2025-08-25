@@ -27,7 +27,7 @@ import ChoiceCalculator from './pages/ChoiceCalculator'
 import HotelsPage from './pages/HotelsPage'
 import AboutPage from './pages/AboutPage'
 import PhilosophyPage from './pages/PhilosophyPage'
-import HelpPage from './pages/HelpPage'
+
 import PrivacyPage from './pages/PrivacyPage'
 import TermsPage from './pages/TermsPage'
 
@@ -62,7 +62,7 @@ function App() {
           <Route path="/hotels/choice" element={<ChoiceCalculator />} />
           <Route path="/about" element={<AboutPage />} />
           <Route path="/philosophy" element={<PhilosophyPage />} />
-          <Route path="/help" element={<HelpPage />} />
+
           <Route path="/privacy" element={<PrivacyPage />} />
           <Route path="/terms" element={<TermsPage />} />
         </Routes>

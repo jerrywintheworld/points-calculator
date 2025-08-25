@@ -138,12 +138,7 @@ const siteStructure = [
     changefreq: 'monthly',
     description: 'Service Philosophy Page'
   },
-  {
-    path: '/help',
-    priority: '0.7',
-    changefreq: 'monthly',
-    description: 'Help Center Page'
-  },
+
   {
     path: '/privacy',
     priority: '0.4',
