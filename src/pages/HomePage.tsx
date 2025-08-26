@@ -76,7 +76,7 @@ const HomePage: React.FC = () => {
       </section>
 
       {/* Steam Points Calculator - Main Feature */}
-      <section className="py-20 bg-gradient-to-br from-blue-50 to-indigo-50 rounded-3xl border border-blue-100 shadow-lg">
+      <section id="calculator" className="py-20 bg-gradient-to-br from-blue-50 to-indigo-50 rounded-3xl border border-blue-100 shadow-lg">
         <div className="text-center mb-12">
           <h2 className="text-3xl font-bold text-gray-900 mb-4">
             🎮 Steam Points Calculator

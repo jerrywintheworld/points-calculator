@@ -80,7 +80,7 @@ const SteamCalculator: React.FC = () => {
         </p>
       </div>
 
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+      <div id="calculator" className="grid grid-cols-1 lg:grid-cols-2 gap-8">
         {/* Input Area */}
         <div className="card">
                         <h2 className="text-2xl font-semibold text-gray-900 mb-6">
